@@ -142,7 +142,7 @@ src
     │   │   └── Slider.js
     │   │
     │   ├── ModalCropper.js #Modal for cropper step & redirect to filters tools
-    │   ├── ModalFilters.js # Modal from filters step ( final step & redirect to Home)
+    │   ├── ModalFilters.js # Modal for add filters step ( final step & redirect to Home)
     │   ├── PictureCompress.js #Button for upload, webworker picture compression "on fly" & redirect to cropper step.
     │   └── profilePictureResize.css # global css
     │

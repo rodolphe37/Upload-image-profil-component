@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+#profile-picture {
+  width: 350px;
+  border-radius: 50%;
+}
+.EditProfileLover__imageContainer {
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 2px 6px gray, inset 5px 4px 6px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

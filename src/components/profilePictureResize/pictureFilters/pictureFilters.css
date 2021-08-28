@@ -1,0 +1,149 @@
+.pictureFilter__container {
+  width: 32vh;
+  height: 32vh;
+  /* background-color: #dadada; */
+}
+
+button.sidebar__sidebarItem > svg {
+  margin-left: -6px;
+}
+
+.btn-imageEditor,
+.btn-imageEditor:active {
+  background-color: #14847b;
+}
+
+.sliderContainer__slider {
+  height: 5vh;
+}
+
+.pictureFilter__mainImage__picture {
+  width: 88%;
+  height: 100%;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* margin-left: -39px; */
+}
+
+.sidebar {
+  margin-right: 0.1px;
+}
+
+.sidebar,
+.pictureFilter__sidebar {
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow-x: hidden;
+  margin-right: -1px;
+  box-shadow: 1px 2px 6px grey;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+.pictureFilter__sidebar {
+  margin-bottom: 12px;
+  width: 99%;
+}
+
+.sidebar__sidebarItem {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: hsl(265deg 10% 81%);
+  padding: 1rem;
+  position: relative;
+  transition: background-color 150ms;
+}
+
+.sidebar__sidebarItem:hover,
+.sidebar__sidebarItem:focus {
+  background-color: #14847b;
+}
+
+.sidebar__sidebarItem.active {
+  background-color: hsl(265, 100%, 46%) !important;
+}
+
+.sidebar__sidebarItem::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 0;
+  height: 1px;
+}
+
+.sliderContainer {
+  margin-top: -1rem;
+  padding: 0 2rem 0rem 0rem;
+  margin-left: 0px;
+  margin-bottom: 13px;
+  width: 90%;
+}
+
+.sliderContainer__slider {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .pictureFilter__container {
+    height: 44vh;
+    width: 32vh;
+    background: white;
+  }
+
+  .pictureFilter__mainImage {
+    /* height: 96%; */
+    margin-top: 20px;
+    width: 115%;
+  }
+}
+
+@media (max-width: 360px) {
+  .img-filters {
+    width: 251px !important;
+    margin-top: 10vh;
+    margin-left: -1px;
+  }
+}
+
+@media (min-width: 385px) and (max-width: 412px) {
+  .pictureFilter__container {
+    height: 33vh !important;
+    width: 33vh !important;
+  }
+}
+
+@media (min-width: 372px) and (max-width: 376px) {
+  .pictureFilter__container {
+    height: 41vh;
+    width: 41vh;
+    margin-top: -5px;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 450px) {
+  .modal-414 {
+    width: 260px !important;
+    height: 563px !important;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 766px) {
+  .pictureFilter__container {
+    height: 29vh;
+    width: 29vh;
+    margin-top: -14px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .modal-414 {
+    width: 450px !important;
+    height: 730px !important;
+  }
+}

@@ -76,7 +76,7 @@ import useLocalStorage from "./hooks/storageHooks/useLocalStorage";
 import { Avatar } from "@material-ui/core/";
 import PictureCompress from "./profilePictureResize/PictureCompress";
 
-const Home = () => {
+const ProfilPictureComponent = () => {
   //  Use LocalStorage custom hook for getting the  cropped picture
   const [croppedImg] = useLocalStorage({}, "imgBase64Cropped");
   // Use LocalStorage for getting the style of picture
@@ -111,7 +111,7 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ProfilPictureComponent;
 
 ```
 <!-- ### PWA RUM & Classic RUM version's

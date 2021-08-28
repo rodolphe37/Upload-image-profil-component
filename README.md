@@ -6,21 +6,26 @@
 click [Here](https://reusable-upload-image-profil-component.netlify.app/)
 
 ## Picture demo
-
+***Scenario demo***
 ![alt text](/demo/demo-scenario.png)
 
+***Start screen***
 >![alt text](/demo/pict-init.png)
 
+***Upload zone***
 >![alt text](/demo/pict-upload.png)
 
+***Crops zone***
 >![alt text](/demo/pict3.png)
 
+***Filter zone***
 >![alt text](/demo/pict4.png)
 
+***Final screen***
 >![alt text](/demo/pict5.png)
 
 
-
+***All settings (Compressed picture, cropped picture & filter css setting) are in localStorage & session Storage***
 >![alt text](/demo/pict2.png)
 
 

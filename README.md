@@ -71,7 +71,7 @@ http://localhost:3000
 ```
 How to use this component easy?
 ```javascript
-import {Fragment} from 'react
+import {Fragment} from "react";
 import useLocalStorage from "./hooks/storageHooks/useLocalStorage";
 import { Avatar } from "@material-ui/core/";
 import PictureCompress from "./profilePictureResize/PictureCompress";

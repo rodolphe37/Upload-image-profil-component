@@ -114,6 +114,36 @@ const ProfilPictureComponent = () => {
 export default ProfilPictureComponent;
 
 ```
+
+### Detailed structure diagram of src folder:
+
+```bash
+src
+└── components
+    ├── hooks
+    │   └── storageHooks
+    │       ├── useLocalStorage.js #reusable customHook from localStorage
+    │       └── useSessionStorage.js #reusable customHook from sessionStorage
+    │
+    ├── profilePictureResize #folder for all pictures processing
+    │   ├── pictureCropper #Cropper component
+    │   │   ├── pictureCropper.css
+    │   │   └── pictureCropper.js
+    │   │
+    │   ├── pictureFilters #Filters components
+    │   │   ├── pictureFilters.css
+    │   │   ├── PictureFilters.js
+    │   │   ├── SidebarItem.js
+    │   │   └── Slider.js
+    │   │
+    │   ├── ModalCropper.js #Modal for cropper step
+    │   ├── ModalFilters.js # Modal from filters step
+    │   ├── PictureCompress.js # this component call all others comonent during process.
+    │   └── profilePictureResize.css # global css
+    │
+    │
+    └── Home.js # component for displaying result or avatar
+```
 <!-- ### PWA RUM & Classic RUM version's
 
  ![alt text](/img/rum-version.png "RUM versions")

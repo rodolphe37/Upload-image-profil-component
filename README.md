@@ -14,22 +14,35 @@ click [Here](https://reusable-upload-image-profil-component.netlify.app/)
 
 ***Upload zone***
 >![alt text](/demo/pict-upload.png)
+When the picture is ready to read to the browser, she's already compressed on fly with WebWorker.
 
-***Crops zone***
+***Crop zone***
 >![alt text](/demo/pict3.png)
+You have a little round view, this is preview of final result.
 
 ***Filter zone***
 >![alt text](/demo/pict4.png)
+You have 7 tools for adding some filters to your picture.
 
 ***Final screen***
 >![alt text](/demo/pict5.png)
+The picture is displayed with all specifications (crop, filters) setted during the process.
 
 
 ***All settings (Compressed picture, cropped picture & filter css setting) are in localStorage & session Storage***
 >![alt text](/demo/pict2.png)
 
 
+***All Dependencies for this component***
+>![alt text](/demo/dependencies.png)
 
+- Material-ui/core & Meterial-ui/icons fro the design.
+- React-dropzone for the upload zone.
+- Browser-image-compression fro compress the picture on fly with webWorker.
+- cropperjs for cropping the picture.
+- React-responsive-modal for Modal cropper component.
+- React-router-dom for routing the app pages.
+- React-toastify for the toast info at each step.
 <!-- ### PWA RUM & Classic RUM version's
 
  ![alt text](/img/rum-version.png "RUM versions")

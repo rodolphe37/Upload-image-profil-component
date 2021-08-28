@@ -44,7 +44,7 @@ The picture is displayed with all specifications (crop, filters) setted during t
 - React-router-dom for routing the app pages.
 - React-toastify for the toast info at each step.
 
-## How to use this compoent?
+## How to test & use this component?
 
 ***You need to clone or download the repo***
 After that, at the root of the app type

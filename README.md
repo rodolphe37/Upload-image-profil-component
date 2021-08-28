@@ -3,8 +3,6 @@
 
 ![alt text](/demo/demo-scenario.png)
 
->![alt text](/demo/pict2.png)
-
 >![alt text](/demo/pict-init.png)
 
 >![alt text](/demo/pict-upload.png)
@@ -14,6 +12,10 @@
 >![alt text](/demo/pict4.png)
 
 >![alt text](/demo/pict5.png)
+
+
+
+>![alt text](/demo/pict2.png)
 <!-- ### PWA RUM & Classic RUM version's
 
  ![alt text](/img/rum-version.png "RUM versions")

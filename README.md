@@ -7,6 +7,10 @@
 
 >![alt text](/demo/pict2.png)
 
+>![alt text](/demo/pict_init.png)
+
+>![alt text](/demo/pict_upload.png)
+
 >![alt text](/demo/pict3.png)
 
 >![alt text](/demo/pict4.png)

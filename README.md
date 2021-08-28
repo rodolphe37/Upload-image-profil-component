@@ -1,7 +1,7 @@
 
 # Démo
 
-![alt text](/demo/demo-scenario.png"RUM versions")
+![alt text](/demo/demo-scenario.png)
 
 >[![embed url](/demo/pict5.png)](https://youtu.be/glJNtVUDDcw)
 

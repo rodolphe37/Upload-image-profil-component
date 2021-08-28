@@ -5,6 +5,11 @@
 
 click [Here](https://reusable-upload-image-profil-component.netlify.app/)
 
+## Movie demo
+
+***Here is a short video demonstration.***
+>[![embed url](/demo/demo-movie.png)](https://youtu.be/TMCp9p3-U4Q)
+
 ## Picture demo
 ***Scenario demo***
 ![alt text](/demo/demo-scenario.png)
@@ -136,13 +141,13 @@ src
     │   │   ├── SidebarItem.js
     │   │   └── Slider.js
     │   │
-    │   ├── ModalCropper.js #Modal for cropper step
-    │   ├── ModalFilters.js # Modal from filters step
-    │   ├── PictureCompress.js # this component call all others comonent during process.
+    │   ├── ModalCropper.js #Modal for cropper step & redirect to filters tools
+    │   ├── ModalFilters.js # Modal from filters step ( final step & redirect to Home)
+    │   ├── PictureCompress.js #Button for upload, webworker picture compression "on fly" & redirect to cropper step.
     │   └── profilePictureResize.css # global css
     │
     │
-    └── Home.js # component for displaying result or avatar
+    └── Home.js #component for displaying result after all steps or avatar if picture is not in localStorage
 ```
 <!-- ### PWA RUM & Classic RUM version's
 

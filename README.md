@@ -3,8 +3,6 @@
 
 ![alt text](/demo/demo-scenario.png)
 
->![alt text](/demo/pict1.png)
-
 >![alt text](/demo/pict2.png)
 
 >![alt text](/demo/pict-init.png)

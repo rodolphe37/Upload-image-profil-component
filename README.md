@@ -43,6 +43,77 @@ The picture is displayed with all specifications (crop, filters) setted during t
 - React-responsive-modal for Modal cropper component.
 - React-router-dom for routing the app pages.
 - React-toastify for the toast info at each step.
+
+## How to use this compoent?
+
+***You need to clone or download the repo***
+After that, at the root of the app type
+```bash
+npm i
+```
+or
+``` bash
+yarn
+```
+for install all dependencies
+
+And then, type
+``` bash
+npm start
+```
+or
+``` bash
+yarn start
+```
+For starting the app at
+``` bash
+http://localhost:3000
+```
+How to use this component easy?
+```javascript
+import {Fragment} from 'react
+import useLocalStorage from "./hooks/storageHooks/useLocalStorage";
+import { Avatar } from "@material-ui/core/";
+import PictureCompress from "./profilePictureResize/PictureCompress";
+
+const Home = () => {
+  //  Use LocalStorage custom hook for getting the  cropped picture
+  const [croppedImg] = useLocalStorage({}, "imgBase64Cropped");
+  // Use LocalStorage for getting the style of picture
+  const [ImageStyle] = useLocalStorage({}, "styleImg");
+  return (
+    <Fragment>
+        <div>
+        {/*If image is present to localstorage then display this*/}
+          {croppedImg.imageDestination && (
+            <img
+              id="profile-picture"
+              src={croppedImg.imageDestination}
+              style={ImageStyle}
+              alt="profile"
+            />
+          )}
+          {/* Else display avatar icon from material-ui */}
+          {!croppedImg.imageDestination && (
+            <Avatar
+              id="profile-picture"
+              style={{
+                width: 253,
+                height: 253,
+                boxShadow: "7px 7px 21px #808080",
+              }}
+            />
+          )}
+        </div>
+         {/*The button component for opening the upload zone*/}
+        <PictureCompress />
+    </Fragment>
+  );
+};
+
+export default Home;
+
+```
 <!-- ### PWA RUM & Classic RUM version's
 
  ![alt text](/img/rum-version.png "RUM versions")

@@ -36,7 +36,7 @@ The picture is displayed with all specifications (crop, filters) setted during t
 ***All Dependencies for this component***
 >![alt text](/demo/dependencies.png)
 
-- Material-ui/core & Meterial-ui/icons fro the design.
+- Material-ui/core & Material-ui/icons fro the design.
 - React-dropzone for the upload zone.
 - Browser-image-compression fro compress the picture on fly with webWorker.
 - cropperjs for cropping the picture.
